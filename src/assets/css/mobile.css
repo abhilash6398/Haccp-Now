@@ -1,0 +1,346 @@
+@media all and (max-width:767px) {
+
+
+    .nav-list {
+        display: block;
+        position: fixed;
+        background: rgb(255 255 255 / 97%);
+        left: -110%;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+        z-index: 300;
+        -webkit-transition: ease-in-out .2s;
+        -moz-transition: ease-in-out .2s;
+        -ms-transition: ease-in-out .2s;
+        -o-transition: ease-in-out .2s;
+        transition: ease-in-out .2s;
+        overflow: auto;
+    }
+
+    .nav-list.isOpen {
+        left: 0;
+    }
+
+    .nav-link i {
+        display: none;
+    }
+
+    .submenu-list:last-child a {
+        border-top: 1px solid #ddd;
+    }
+
+    .menuicon {
+        display: block;
+        color: #26427e;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    a#logo-brand img {
+        height: 40px;
+    }
+
+    header.app-header {
+        height: 60px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .primority-app {
+        padding-top: 96px;
+    }
+
+    .account-profile-box {
+        right: -6px;
+    }
+
+    .account-profile-inner:after {
+        right: 1px;
+    }
+
+    .account-profile-text,
+    .account-profile-email {
+        font-size: 13px;
+    }
+
+    .mobileHadader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .nav-list-item:hover .submenu-container {
+        padding: 0;
+    }
+
+    .nav-link:after,
+    .submenu:after {
+        display: none;
+    }
+
+    .submenuLink {
+        display: block;
+        color: #333;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 16px 0;
+        border-top: 1px solid #ddd;
+        border-bottom: 0;
+    }
+
+    .submenu {
+        padding: 0;
+        box-shadow: none;
+        background: transparent;
+        border-radius: 0;
+    }
+
+
+    .submenu-container {
+        opacity: 1;
+        z-index: 10;
+        position: relative;
+        visibility: visible;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        left: 0;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        padding: 16px 0;
+        border-top: 1px solid #ddd;
+    }
+
+    header.app-header.isOpen {
+        z-index: 500;
+    }
+
+    .mobileLogo {
+        width: 100px;
+    }
+
+    .mobileClose {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #425f9c;
+    }
+
+    .sliderItem {
+        height: 320px;
+    }
+
+    .sliderTitle {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .tc-btn-primary {
+        padding: 10px 20px;
+    }
+
+    .sliderDesc {
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .p-section {
+        padding: 40px 0px;
+    }
+
+    .main--title {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .main--desc {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .trusted-item {
+        padding: 0px 5px;
+        width: auto;
+        flex: 1;
+    }
+
+    .food-col {
+        width: 100%;
+    }
+
+    .whyPrimoritybox {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .whyPrimoritybox-title {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .whyPrimority {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .auth-form-row {
+        display: block;
+    }
+
+    .p-form {
+        margin-top: 20px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .noteform {
+        font-size: 12px;
+    }
+
+    .checkbox-box {
+        display: block;
+    }
+
+    .footer-row {
+        padding: 30px 0;
+        font-size: 15px;
+        display: block;
+    }
+
+    .auth-form-form-control {
+        width: 100%;
+    }
+
+    .footer-box {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-box+.footer-box {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+
+    .footer-bottom .vs-container-flex {
+        display: block;
+        text-align: center;
+    }
+
+    .copyright {
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #294279;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .footer-bottom-link {
+        justify-content: center;
+    }
+
+    .footer-bottom-link a {
+        font-size: 13px;
+    }
+
+    .subsBtn {
+        width: 100%;
+    }
+
+    .app-page-banner {
+        font-size: 24px;
+        padding: 30px 0;
+        min-height: 0;
+    }
+
+
+    .bannerContent__desc {
+        font-size: 18px;
+    }
+
+    .mgtContentRow {
+        display: block;
+    }
+
+    .mgtContent-left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .mgtContentText {
+        font-size: 16px;
+    }
+
+    .mgtContent-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .testSliderContent p {
+        padding: 0 0 0 10px;
+    }
+
+    .testSliderContent p img {
+        display: none;
+    }
+
+    .mgtContentRow .bx-controls-auto {
+        display: none;
+    }
+
+    .testiSliderTitle {
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    .mgtContentRowCaseStudy .mgtContent-left {
+        padding-right: 0;
+    }
+
+    .casebox-col {
+        width: 100%;
+    }
+
+    .casebox--title{
+        font-size: 22px;
+    }
+
+    .casebox p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .caseStudy--desc{
+        line-height: 26px;
+    }
+    .pageViewBox{
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .mgtContentRow.mgtContentRowCase{
+        padding: 40px 0;
+    }
+
+    .testText{
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width:639px) {
+    .pageViewCol {
+        width: 100%;
+    }
+    
+}

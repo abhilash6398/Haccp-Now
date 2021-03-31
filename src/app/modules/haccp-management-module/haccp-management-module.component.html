@@ -1,0 +1,45 @@
+<!--Start Banner-->
+<section class="app-banner" id="home">
+    <!--Start Header-->
+    <app-haccp-header></app-haccp-header>
+    <!--End Header-->
+</section>
+<!--Start Inner Page Banner-->
+<app-haccp-modules-banner [title]="'HACCP Management'">
+</app-haccp-modules-banner>
+<!--End Inner Page Banner-->
+
+<section class="pageContent vs-container">
+    <app-haccp-module-internal-list [moduleID]="'2'"></app-haccp-module-internal-list>
+
+    <div class="mgtContentRow">
+        <div class="mgtContent-left">
+            <div class="mgtContentVideo">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/_xWhEdcKsYU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="mgtContentText">
+                <p>HACCP Management is core to the HACCP Now software system. It provides tried and tested HACCP tools that help users produce internationally compliant HACCP documentation quickly and effectively.</p>
+                <p>The HACCP plan module provides a logical and structured approach to the documentation of:</p>
+                <ul><li>Terms of Reference</li>
+                    <li>Process Flow Diagram</li>
+                    <li>Hazard Analysis</li>
+                </ul>
+
+                <p>The system’s built in knowledge database of hazards, their controls, monitoring and corrective actions helps carry out hazard analysis in a fast, consistent way.</p>
+                <p>Template hazard analysis can be created and then linked with process steps in multiple process flow diagrams. This means that when you are developing a new product, most of the hazard analysis can be done in minutes rather than days.</p>
+                <p>It also means that when hazard analysis is carried out, all affected HACCP studies are automatically updated.</p>
+                <p>The HACCP plan can be created as PDF documents instantly and may be emailed with configurable options to customers or auditors who request it within seconds.</p>
+                <p>The HACCP plan module can also be linked up to documents in almost any location and then published as a set of web pages on the web, or on your company network, for staff to browse at their leisure.</p>
+                <p>Monitoring procedures in each process step can be linked to electronic data capture forms so that the documentation is both integrated and relevant.</p>
+                <p>HACCP Now has a built-in decision tree based on Codex Alimentarius guidelines. It also features a configurable risk assessment tool that makes the process of identifying significant hazards logical and straightforward. Auditors are regularly impressed with HACCP Now’s capability and the standard of documentation produced by HACCP Now.</p>
+                <p>For more information on how we can help you with all aspects of HACCP, contact us now. We are always happy to provide a free consultation or arrange a full demo of our software. Alternatively, visit out our sister site to find out more about connected food safety: 
+                  <a href="https://www.primority.com" target="_blank">www.primority.com</a>.</p>
+            </div>
+            <app-haccp-testimonials></app-haccp-testimonials>
+        </div>
+      <app-haccp-contact-us-form></app-haccp-contact-us-form>
+    </div>
+</section>

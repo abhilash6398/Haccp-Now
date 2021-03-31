@@ -1,0 +1,37 @@
+<!--Start Banner-->
+<section class="app-banner" id="home">
+    <!--Start Header-->
+    <app-haccp-header></app-haccp-header>
+    <!--End Header-->
+</section>
+<!--Start Inner Page Banner-->
+<app-haccp-modules-banner [title]="'Audit Management'">
+</app-haccp-modules-banner>
+<!--End Inner Page Banner-->
+
+<section class="pageContent vs-container">
+    <app-haccp-module-internal-list [moduleID]="'10'"></app-haccp-module-internal-list>
+    
+    <div class="mgtContentRow">
+        <div class="mgtContent-left">
+            <div class="mgtContentVideo">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/_xWhEdcKsYU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="mgtContentText">
+                <p>HACCP Now allows the creation of any type of audit, whether checkbox or observational, internal or supplier. HACCP Now’s audit tool supports many different types of question, such as single select, multi-select, date, numeric or text. Each question, or observation point, can be linked directly to audit standards such as your internal standards or the BRC Global Food Standard or the SQF standard.</p>
+                <p>Audits can be scheduled on any frequency required and against any internal department or external supplier. They can be assigned to team members to complete and will appear on the team members’ task list automatically.</p>
+                <p>The audit can then be taken offline and then completed on a Windows PC or tablet. This ensures that questions can be answered whilst carrying out the audit, reducing the need to ‘write up’ an audit report after the event.</p>
+                <p>When questions are answered during an audit, the raising or non-conformities can be automated or manual.</p>
+                <p>Any non-conformities will be raised in the Action Management module where they will be assigned to the relevant team member for action, ensuring that ‘nothing falls through the cracks’.</p>
+                <p>HACCP Now’s approach to auditing ensures that workflows, risk assessments and root cause analysis can be completed and results recorded for ongoing trend analysis and reporting.</p>
+                <p>If you would like a free consultation for our Audit Management solution, or a full demo of our system, please contact us. Alternatively, check out our sister site :
+                  <a href="https://www.primority.com" target="_blank">www.primority.com</a>.</p>
+            </div>
+            <app-haccp-testimonials></app-haccp-testimonials>
+        </div>
+      <app-haccp-contact-us-form></app-haccp-contact-us-form>
+    </div>
+</section>
